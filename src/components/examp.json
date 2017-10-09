@@ -1,0 +1,851 @@
+[
+  {
+    "mytitle": "clinvar",
+    "_id": "chr4:g.3494804G>A",
+    "_score": 17.177761,
+    "cadd": {
+      "_license": "http://goo.gl/bkpNhq",
+      "alt": "A",
+      "annotype": [
+        "CodingTranscript",
+        "RegulatoryFeature"
+      ],
+      "bstatistic": 900,
+      "chmm": {
+        "bivflnk": 0,
+        "enh": 0.016,
+        "enhbiv": 0.102,
+        "het": 0,
+        "quies": 0.071,
+        "reprpc": 0.276,
+        "reprpcwk": 0.315,
+        "tssa": 0,
+        "tssaflnk": 0.008,
+        "tssbiv": 0,
+        "tx": 0.039,
+        "txflnk": 0,
+        "txwk": 0.118,
+        "znfrpts": 0.008
+      },
+      "chrom": 4,
+      "consdetail": [
+        "missense",
+        "regulatory"
+      ],
+      "consequence": [
+        "NON_SYNONYMOUS",
+        "REGULATORY"
+      ],
+      "consscore": [
+        7,
+        4
+      ],
+      "cpg": 0.11,
+      "dna": {
+        "helt": -1.95,
+        "mgw": 0.03,
+        "prot": 1,
+        "roll": -0.67
+      },
+      "encode": {
+        "exp": 175.93,
+        "h3k27ac": 55.92,
+        "h3k4me1": 12.24,
+        "h3k4me3": 11.96,
+        "nucleo": 0.4,
+        "occ": 2,
+        "p_val": {
+          "comb": 4.02,
+          "ctcf": 1.35,
+          "dnas": 5.03,
+          "faire": 0.86,
+          "mycp": 2.23,
+          "polii": 2.72
+        },
+        "sig": {
+          "ctcf": 0.11,
+          "dnase": 0.16,
+          "faire": 0.01,
+          "myc": 0.14,
+          "polii": 0.05
+        }
+      },
+      "exon": "7/7",
+      "fitcons": 0.624568,
+      "gc": 0.69,
+      "gene": [
+        {
+          "ccds_id": "CCDS3370.2",
+          "cds": {
+            "cdna_pos": 1156,
+            "cds_pos": 1091,
+            "rel_cdna_pos": 0.45,
+            "rel_cds_pos": 0.72
+          },
+          "feature_id": "ENST00000340083",
+          "gene_id": "ENSG00000175920",
+          "genename": "DOK7",
+          "prot": {
+            "protpos": 364,
+            "rel_prot_pos": 0.72
+          }
+        },
+        {
+          "feature_id": "ENSR00001235189"
+        }
+      ],
+      "gerp": {
+        "n": 3.77,
+        "rs": 912.4,
+        "rs_pval": 1.21251e-122,
+        "s": -0.41
+      },
+      "grantham": 43,
+      "isknownvariant": "FALSE",
+      "istv": "FALSE",
+      "length": 0,
+      "mapability": {
+        "20bp": 1,
+        "35bp": 1
+      },
+      "min_dist_tse": 189,
+      "min_dist_tss": 282,
+      "mutindex": 52,
+      "naa": "Q",
+      "oaa": "R",
+      "phast_cons": {
+        "mammalian": 0.599,
+        "primate": 0.881,
+        "vertebrate": 0.546
+      },
+      "phred": 18.5,
+      "phylop": {
+        "mammalian": 0,
+        "primate": 0.551,
+        "vertebrate": 0.21
+      },
+      "polyphen": {
+        "cat": "benign",
+        "val": 0.007
+      },
+      "pos": 3494804,
+      "rawscore": 2.350828,
+      "ref": "G",
+      "segway": "TF0",
+      "sift": {
+        "cat": "tolerated",
+        "val": 0.29
+      },
+      "type": "SNV"
+    },
+    "chrom": "4",
+    "clinvar": {
+      "_license": "https://goo.gl/OaHML9",
+      "allele_id": 251469,
+      "alt": "A",
+      "chrom": "4",
+      "cytogenic": "4p16.3",
+      "gene": {
+        "id": "285489",
+        "symbol": "DOK7"
+      },
+      "hg19": {
+        "end": 3494804,
+        "start": 3494804
+      },
+      "hg38": {
+        "end": 3493077,
+        "start": 3493077
+      },
+      "hgvs": {
+        "coding": [
+          "NM_001164673.1:c.*312G>A",
+          "NM_173660.4:c.1091G>A"
+        ],
+        "genomic": [
+          "NC_000004.11:g.3494804G>A",
+          "NC_000004.12:g.3493077G>A",
+          "NG_013072.2:g.34772G>A"
+        ]
+      },
+      "rcv": {
+        "accession": "RCV000253517",
+        "clinical_significance": "Likely benign",
+        "conditions": {
+          "identifiers": {
+            "medgen": "CN169374"
+          },
+          "name": "not specified",
+          "synonyms": [
+            "AllHighlyPenetrant"
+          ]
+        },
+        "number_submitters": 1,
+        "origin": "germline",
+        "preferred_name": "NM_173660.4(DOK7):c.1091G>A (p.Arg364Gln)",
+        "review_status": "criteria provided, single submitter"
+      },
+      "ref": "G",
+      "rsid": "rs201304841",
+      "type": "single nucleotide variant",
+      "variant_id": 262866
+    },
+    "dbnsfp": {
+      "1000gp3": {
+        "ac": 9,
+        "af": 0.0017971246006389776,
+        "afr_ac": 0,
+        "afr_af": 0,
+        "amr_ac": 2,
+        "amr_af": 0.002881844380403458,
+        "eas_ac": 0,
+        "eas_af": 0,
+        "eur_ac": 0,
+        "eur_af": 0,
+        "sas_ac": 7,
+        "sas_af": 0.007157464212678937
+      },
+      "_license": "https://goo.gl/vZCbeQ",
+      "aa": {
+        "alt": "Q",
+        "codon_degeneracy": 0,
+        "codonpos": 2,
+        "pos": 364,
+        "ref": "R",
+        "refcodon": "CGG"
+      },
+      "alt": "A",
+      "ancestral_allele": "G",
+      "cds_strand": "+",
+      "chrom": "4",
+      "clinvar": {
+        "clinsig": 3,
+        "golden_stars": 1,
+        "rs": "rs201304841",
+        "trait": "not specified"
+      },
+      "dann": {
+        "rankscore": 0.73056,
+        "score": 0.9958537754700478
+      },
+      "eigen": {
+        "coding_or_noncoding": "c",
+        "phred": 1.482364,
+        "raw": -0.355488317113898
+      },
+      "eigen-pc": {
+        "phred": 1.359033,
+        "raw": -0.407311944832342,
+        "raw_rankscore": 0.24356
+      },
+      "ensembl": {
+        "geneid": "ENSG00000175920",
+        "proteinid": "ENSP00000344432",
+        "transcriptid": "ENST00000340083"
+      },
+      "exac": {
+        "ac": 151,
+        "adj_ac": 120,
+        "adj_af": 0.003983,
+        "af": 0.001266,
+        "afr_ac": 0,
+        "afr_af": 0,
+        "amr_ac": 8,
+        "amr_af": 0.004717,
+        "eas_ac": 0,
+        "eas_af": 0,
+        "fin_ac": 0,
+        "fin_af": 0,
+        "nfe_ac": 9,
+        "nfe_af": 0.0006227,
+        "sas_ac": 102,
+        "sas_af": 0.01132
+      },
+      "exac_nonpsych": {
+        "ac": 147,
+        "adj_ac": 117,
+        "adj_af": 0.004642,
+        "af": 0.001656,
+        "afr_ac": 0,
+        "afr_af": 0,
+        "amr_ac": 8,
+        "amr_af": 0.004723,
+        "eas_ac": 0,
+        "eas_af": 0,
+        "fin_ac": 0,
+        "fin_af": 0,
+        "nfe_ac": 6,
+        "nfe_af": 0.0005845,
+        "sas_ac": 102,
+        "sas_af": 0.01132
+      },
+      "exac_nontcga": {
+        "ac": 149,
+        "adj_ac": 118,
+        "adj_af": 0.004409,
+        "af": 0.001417,
+        "afr_ac": 0,
+        "afr_af": 0,
+        "amr_ac": 8,
+        "amr_af": 0.00492,
+        "eas_ac": 0,
+        "eas_af": 0,
+        "fin_ac": 0,
+        "fin_af": 0,
+        "nfe_ac": 7,
+        "nfe_af": 0.0005944,
+        "sas_ac": 102,
+        "sas_af": 0.01135
+      },
+      "fathmm": {
+        "pred": "T",
+        "rankscore": 0.63589,
+        "score": -0.06
+      },
+      "fathmm-mkl": {
+        "coding_group": "AEFDBCIJ",
+        "coding_pred": "N",
+        "coding_rankscore": 0.24998,
+        "coding_score": 0.35115
+      },
+      "genename": "DOK7",
+      "genocanyon": {
+        "rankscore": 0.47268,
+        "score": 0.999942689345877
+      },
+      "gerp++": {
+        "nr": 3.77,
+        "rs": -0.41,
+        "rs_rankscore": 0.11703
+      },
+      "gm12878": {
+        "confidence_value": 0,
+        "fitcons_rankscore": 0.40457,
+        "fitcons_score": 0.588066
+      },
+      "h1-hesc": {
+        "confidence_value": 0,
+        "fitcons_rankscore": 0.31061,
+        "fitcons_score": 0.596491
+      },
+      "hg18": {
+        "end": 3464602,
+        "start": 3464602
+      },
+      "hg19": {
+        "end": 3494804,
+        "start": 3494804
+      },
+      "hg38": {
+        "end": 3493077,
+        "start": 3493077
+      },
+      "huvec": {
+        "confidence_value": 0,
+        "fitcons_rankscore": 0.20234,
+        "fitcons_score": 0.562822
+      },
+      "integrated": {
+        "confidence_value": 0,
+        "fitcons_rankscore": 0.33991,
+        "fitcons_score": 0.59774
+      },
+      "lrt": {
+        "converted_rankscore": 0.17557,
+        "omega": 0.566372,
+        "pred": "N",
+        "score": 0.164224
+      },
+      "metalr": {
+        "pred": "T",
+        "rankscore": 0.57094,
+        "score": 0.2106
+      },
+      "metasvm": {
+        "pred": "T",
+        "rankscore": 0.49709,
+        "score": -0.881
+      },
+      "mutationassessor": {
+        "pred": "M",
+        "rankscore": 0.57591,
+        "score": 2.08
+      },
+      "mutationtaster": {
+        "AAE": [
+          ".",
+          "R364Q",
+          "R364Q"
+        ],
+        "converted_rankscore": 0.44557,
+        "model": [
+          "without_aae",
+          "simple_aae",
+          "simple_aae"
+        ],
+        "pred": [
+          "D",
+          "N",
+          "N"
+        ],
+        "score": [
+          0.998139,
+          0.999804,
+          0.999804
+        ]
+      },
+      "phastcons": {
+        "100way": {
+          "vertebrate": 0.514,
+          "vertebrate_rankscore": 0.26831
+        },
+        "20way": {
+          "mammalian": 0.912,
+          "mammalian_rankscore": 0.3888
+        }
+      },
+      "phylo": {
+        "p100way": {
+          "vertebrate": 1.934,
+          "vertebrate_rankscore": 0.39557
+        },
+        "p20way": {
+          "mammalian": 0.97,
+          "mammalian_rankscore": 0.59274
+        }
+      },
+      "polyphen2": {
+        "hdiv": {
+          "pred": [
+            "B",
+            "D",
+            "B"
+          ],
+          "rankscore": 0.61549,
+          "score": [
+            0.239,
+            0.99,
+            0.005
+          ]
+        },
+        "hvar": {
+          "pred": [
+            "B",
+            "P",
+            "B"
+          ],
+          "rankscore": 0.51003,
+          "score": [
+            0.038,
+            0.661,
+            0.002
+          ]
+        }
+      },
+      "provean": {
+        "pred": "N",
+        "rankscore": 0.36563,
+        "score": -1.5
+      },
+      "ref": "G",
+      "reliability_index": 10,
+      "revel": {
+        "rankscore": 0.22671,
+        "score": 0.076
+      },
+      "rsid": "rs201304841",
+      "sift": {
+        "converted_rankscore": 0.14572,
+        "pred": "T",
+        "score": 0.298
+      },
+      "siphy_29way": {
+        "logodds": 3.9739,
+        "logodds_rankscore": 0.08891,
+        "pi": {
+          "a": 0.5306,
+          "c": 0.2211,
+          "g": 0.2483,
+          "t": 0
+        }
+      },
+      "uniprot": [
+        {
+          "acc": "Q18PE1-3",
+          "pos": "364"
+        },
+        {
+          "acc": "Q18PE1-2",
+          "pos": "226"
+        },
+        {
+          "acc": "Q18PE1",
+          "pos": "364"
+        }
+      ],
+      "vest3": {
+        "rankscore": 0.17498,
+        "score": [
+          0.128,
+          0.121,
+          0.121,
+          0.148
+        ],
+        "transcriptid": [
+          "NM_001256896.1",
+          "ENST00000340083",
+          "NM_173660.4",
+          "ENST00000389653"
+        ],
+        "transcriptvar": [
+          "R54Q",
+          "R364Q",
+          "R364Q",
+          "R364Q"
+        ]
+      }
+    },
+    "dbsnp": {
+      "_license": "https://goo.gl/Ztr5rl",
+      "allele_origin": "unspecified",
+      "alleles": [
+        {
+          "allele": "G",
+          "freq": 0.9982
+        },
+        {
+          "allele": "A",
+          "freq": 0.001797
+        }
+      ],
+      "alt": "A",
+      "chrom": "4",
+      "class": "SNV",
+      "dbsnp_build": 137,
+      "flags": [
+        "ASP",
+        "KGPhase3",
+        "NSM",
+        "PM",
+        "PMC",
+        "REF",
+        "U3"
+      ],
+      "gene": {
+        "geneid": "285489",
+        "symbol": "DOK7"
+      },
+      "gmaf": 0.001797,
+      "hg19": {
+        "end": 3494804,
+        "start": 3494804
+      },
+      "ref": "G",
+      "rsid": "rs201304841",
+      "validated": true,
+      "var_subtype": "ts",
+      "vartype": "snp"
+    },
+    "exac": {
+      "_license": "https://goo.gl/MH8b34",
+      "ac": {
+        "ac": 151,
+        "ac_adj": 120,
+        "ac_afr": 0,
+        "ac_amr": 8,
+        "ac_eas": 0,
+        "ac_female": 34,
+        "ac_fin": 0,
+        "ac_het": 114,
+        "ac_hom": 3,
+        "ac_male": 86,
+        "ac_nfe": 9,
+        "ac_oth": 1,
+        "ac_sas": 102
+      },
+      "af": 0.001266,
+      "alleles": "A",
+      "alt": "A",
+      "an": {
+        "an": 119270,
+        "an_adj": 30128,
+        "an_afr": 2342,
+        "an_amr": 1696,
+        "an_eas": 1902,
+        "an_female": 11552,
+        "an_fin": 494,
+        "an_male": 18576,
+        "an_nfe": 14454,
+        "an_oth": 230,
+        "an_sas": 9010
+      },
+      "baseqranksum": 1.08,
+      "chrom": 4,
+      "clippingranksum": -0.229,
+      "culprit": "MQ",
+      "fs": 0.523,
+      "het": {
+        "het_afr": 0,
+        "het_amr": 8,
+        "het_eas": 0,
+        "het_fin": 0,
+        "het_nfe": 9,
+        "het_oth": 1,
+        "het_sas": 96
+      },
+      "hom": {
+        "hom_afr": 0,
+        "hom_amr": 0,
+        "hom_eas": 0,
+        "hom_fin": 0,
+        "hom_nfe": 0,
+        "hom_oth": 0,
+        "hom_sas": 3
+      },
+      "inbreedingcoeff": -0.0241,
+      "mq": {
+        "mq": 60,
+        "mq0": 0,
+        "mqranksum": 0.239
+      },
+      "ncc": 3120,
+      "pos": 3494804,
+      "qd": 12.28,
+      "readposranksum": 0.421,
+      "ref": "G",
+      "type": "snp",
+      "vqslod": 3.73
+    },
+    "exac_nontcga": {
+      "ac": {
+        "ac": 149,
+        "ac_adj": 118,
+        "ac_afr": 0,
+        "ac_amr": 8,
+        "ac_eas": 0,
+        "ac_female": 32,
+        "ac_fin": 0,
+        "ac_het": 112,
+        "ac_hom": 3,
+        "ac_male": 86,
+        "ac_nfe": 7,
+        "ac_oth": 1,
+        "ac_sas": 102
+      },
+      "af": 0.001417,
+      "alleles": "A",
+      "alt": "A",
+      "an": {
+        "an": 105180,
+        "an_adj": 26762,
+        "an_afr": 1994,
+        "an_amr": 1626,
+        "an_eas": 1700,
+        "an_female": 9886,
+        "an_fin": 494,
+        "an_male": 16876,
+        "an_nfe": 11776,
+        "an_oth": 184,
+        "an_sas": 8988
+      },
+      "baseqranksum": 1.08,
+      "chrom": 4,
+      "clippingranksum": -0.229,
+      "culprit": "MQ",
+      "fs": 0.523,
+      "het": {
+        "het_afr": 0,
+        "het_amr": 8,
+        "het_eas": 0,
+        "het_fin": 0,
+        "het_nfe": 7,
+        "het_oth": 1,
+        "het_sas": 96
+      },
+      "hom": {
+        "hom_afr": 0,
+        "hom_amr": 0,
+        "hom_eas": 0,
+        "hom_fin": 0,
+        "hom_nfe": 0,
+        "hom_oth": 0,
+        "hom_sas": 3
+      },
+      "inbreedingcoeff": -0.0241,
+      "mq": {
+        "mq": 60,
+        "mq0": 0,
+        "mqranksum": 0.239
+      },
+      "ncc": 3120,
+      "pos": 3494804,
+      "qd": 12.28,
+      "readposranksum": 0.421,
+      "ref": "G",
+      "type": "snp",
+      "vqslod": 3.73
+    },
+    "geno2mp": {
+      "_license": "https://goo.gl/D6Edka",
+      "hpo_count": 6
+    },
+    "hg19": {
+      "end": 3494804,
+      "start": 3494804
+    },
+    "observed": true,
+    "snpeff": {
+      "_license": "http://snpeff.sourceforge.net/download.html",
+      "ann": [
+        {
+          "cdna": {
+            "length": "2545",
+            "position": "1161"
+          },
+          "cds": {
+            "length": "1827",
+            "position": "1091"
+          },
+          "effect": "missense_variant",
+          "feature_id": "NM_001301071.1",
+          "feature_type": "transcript",
+          "gene_id": "DOK7",
+          "genename": "DOK7",
+          "hgvs_c": "c.1091G>A",
+          "hgvs_p": "p.Arg364Gln",
+          "protein": {
+            "length": "608",
+            "position": "364"
+          },
+          "putative_impact": "MODERATE",
+          "rank": "7",
+          "total": "10",
+          "transcript_biotype": "protein_coding"
+        },
+        {
+          "cdna": {
+            "length": "2566",
+            "position": "1161"
+          },
+          "cds": {
+            "length": "1515",
+            "position": "1091"
+          },
+          "effect": "missense_variant",
+          "feature_id": "NM_173660.4",
+          "feature_type": "transcript",
+          "gene_id": "DOK7",
+          "genename": "DOK7",
+          "hgvs_c": "c.1091G>A",
+          "hgvs_p": "p.Arg364Gln",
+          "protein": {
+            "length": "504",
+            "position": "364"
+          },
+          "putative_impact": "MODERATE",
+          "rank": "7",
+          "total": "7",
+          "transcript_biotype": "protein_coding"
+        },
+        {
+          "cdna": {
+            "length": "2264",
+            "position": "859"
+          },
+          "cds": {
+            "length": "585",
+            "position": "161"
+          },
+          "effect": "missense_variant",
+          "feature_id": "NM_001256896.1",
+          "feature_type": "transcript",
+          "gene_id": "DOK7",
+          "genename": "DOK7",
+          "hgvs_c": "c.161G>A",
+          "hgvs_p": "p.Arg54Gln",
+          "protein": {
+            "length": "194",
+            "position": "54"
+          },
+          "putative_impact": "MODERATE",
+          "rank": "4",
+          "total": "4",
+          "transcript_biotype": "protein_coding"
+        },
+        {
+          "distance_to_feature": "312",
+          "effect": "3_prime_UTR_variant",
+          "feature_id": "NM_001164673.1",
+          "feature_type": "transcript",
+          "gene_id": "DOK7",
+          "genename": "DOK7",
+          "hgvs_c": "c.*312G>A",
+          "putative_impact": "MODIFIER",
+          "rank": "7",
+          "total": "7",
+          "transcript_biotype": "protein_coding"
+        }
+      ]
+    },
+    "vcf": {
+      "alt": "A",
+      "position": "3494804",
+      "ref": "G"
+    },
+    "wellderly": {
+      "_license": "https://goo.gl/e8OO17",
+      "adviser_score": "3~DOK7~Rare, Amino Acid Change Predicted Damaging with Low Confidence",
+      "allele_aa": [
+        "Q",
+        "R"
+      ],
+      "alleles": [
+        {
+          "allele": "A",
+          "freq": 0.0025
+        },
+        {
+          "allele": "G",
+          "freq": 0.9975
+        }
+      ],
+      "alt": "A",
+      "chrom": "4",
+      "coding_impact": "Nonsynonymous",
+      "gene": "DOK7",
+      "genotypes": [
+        {
+          "count": 1,
+          "freq": 0.005,
+          "genotype": "G/A"
+        },
+        {
+          "count": 199,
+          "freq": 0.995,
+          "genotype": "G/G"
+        }
+      ],
+      "hg19": {
+        "end": 3494804,
+        "start": 3494804
+      },
+      "original_aa": [
+        "R",
+        "G"
+      ],
+      "polyphen": [
+        "benign",
+        "possibly damaging"
+      ],
+      "pos": 3494804,
+      "protein_pos": [
+        "364",
+        "226",
+        "106",
+        "54"
+      ],
+      "ref": "G",
+      "vartype": "snp"
+    }
+  }
+]
